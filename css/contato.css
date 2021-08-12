@@ -1,0 +1,212 @@
+body,
+h1,
+h2,
+h3,
+p,
+span,
+a,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+button,
+input,
+optgroup,
+select,
+textarea,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Header */
+.menu_ativo {
+  border-bottom: 1px solid white;
+}
+.menu-bg {
+  background-image: url(../img/bg-header.jpg);
+  background-size: cover;
+  background-color: black;
+  height: 720px;
+}
+.menu-bg a {
+  color: white;
+}
+.menu {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-logo {
+  max-width: 300px;
+  margin: 0 10px;
+  padding-top: 60px;
+}
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+}
+.menu-nav a {
+  font-size: 1.25em;
+  margin-left: 10px;
+  padding: 5px;
+}
+.menu-nav a:hover {
+  border-bottom: 1px solid white;
+}
+.menu-quote {
+  color: #dbdbdb;
+}
+.menu-quote {
+  text-align: center;
+  margin-top: 200px;
+}
+.menu-quote h1 {
+  margin-bottom: 30px;
+  font-size: 3.25em;
+}
+.menu-quote span {
+  font-size: 1.5em;
+}
+
+/* formulario */
+.titulo-contato h1{
+  margin: 40px;
+  text-align: center;
+}
+.contatos {
+  margin-top: 40px;
+  text-align: center;
+}
+.contato_container {
+  max-width: 1360px;
+  height: 700px;
+  background-image: url(../img/contato-bg.png);
+}
+.contato_form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex-direction: column;
+  max-width: 300px;
+}
+input {
+  height: 30px;
+  width: 300px;
+  background: #fff;
+  border-color: white;
+  border-radius: 5px;
+  margin: 10px auto;
+  font-family: "Montserrat";
+  font-size: 1em;
+  padding: 5px;
+  outline: none;
+}
+
+textarea {
+  background: #fff;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-size: 1em;
+  padding: 5px;
+  height: 100px;
+  outline: none;
+}
+label {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btn-branco {
+  cursor: pointer;
+  color: black;
+  background-color: #dbdbdb;
+  opacity: 80%;
+  border-radius: 5px;
+  margin: 40px auto;
+  height: 50px;
+  width: 200px;
+  font-family: "Montserrat";
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-branco:hover {
+  background-color: white;
+  opacity: 100%;
+}
+
+/* footer */
+
+.bg-footer {
+  background-color: #000;
+  margin-top: 40px;
+}
+.footer {
+  color: #dbdbdb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.telefone h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+.telefone ul li {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+.email h2 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+.email p {
+  margin: 20px 0px;
+}
+.redes-sociais img {
+  max-width: 20px;
+  max-height: 20px;
+  margin-top: 20px;
+}
+.redes-sociais h3 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+.redes-sociais ul li {
+  margin-bottom: 20px;
+}
+.redes-sociais ul li :hover {
+  color: #707070;
+}
